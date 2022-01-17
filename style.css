@@ -1,0 +1,134 @@
+/* custom-font */
+
+@font-face {
+    src: url(./font/font-1/digital-7.ttf);
+    font-family: watch;
+}
+@font-face {
+    src: url(./font/font-2/DS-DIGI.TTF);
+    font-family: watching;
+}
+
+
+
+/* defult-css */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* main-div */
+
+
+/* watch-div */
+
+.wtach-div {
+    background-image: url(./watch3.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 440px;
+    margin: auto;
+    text-align: center;
+    background-position: center center;
+}
+
+.main-div {
+    margin: auto;
+    text-align: center;
+}
+
+.design {
+
+    position: relative;
+    height: 149px;
+    width: 120px;
+    color: white;
+}
+
+.notify {
+    display: flex; 
+    font-size: 12px;
+}
+
+.notify {}
+
+.notify-left {}
+
+.notify-left span {}
+
+.notify-left span i {}
+
+.notify-right {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.notify-right span {}
+
+.notify-right span i {}
+
+.timer {
+    display: flex;
+    justify-content: center;
+}
+
+span i {
+    color: white;
+}
+
+/* timer */
+
+.timer {
+    color: white;
+    padding: 10px 0px 0px 0px;
+    margin-top: 3px;
+} 
+ 
+.din { 
+    padding: 0px 0px 3px 0px;
+}
+ 
+.tarik {
+    font-family: watch;
+}
+
+#hours {
+    font-family: watch;
+}
+
+#munite {
+    font-family: watch;
+}
+
+#secend {
+    font-family: watch;
+}
+
+.timer-left {
+    width: 80%; 
+    font-size: 38px;
+    padding-left: 1px; 
+} 
+
+.timer-right {
+    width: 20%;   
+    text-align: center;  
+    padding-top: 10px;
+}
+
+#appm {
+    font-size: 12px;
+    display: block;
+    padding-top: 4px;
+}
+.dot {
+    font-family: watch;
+  }
