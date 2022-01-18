@@ -61,3 +61,36 @@ setInterval( function(){
     appm.innerHTML=pmm;
 
 }, 1000);
+
+
+
+// counter-section
+const start = document.getElementById('start');
+const stop = document.getElementById('stop');
+const reset = document.getElementById('reset');
+
+const output = document.getElementById('out-put');
+
+let counter = 0;
+
+let somrat;
+start.addEventListener('click', function () {
+
+    somrat = setInterval(() => {
+        output.innerHTML = counter;
+        counter++; 
+    }, 100);
+
+    
+});
+
+stop.addEventListener('click', function () {
+
+    clearInterval(somrat);
+});
+
+reset.addEventListener('click', function(){
+    counter=0;
+    output.innerHTML = counter;
+    clearInterval(somrat);
+})

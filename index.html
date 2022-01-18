@@ -24,53 +24,77 @@
 <body>
 
     <div class="main-div">
-        <div class="wtach-div">
 
-            <div class="design">
+        <div class="container">
+            
+            <div class="wtach-div">
 
-                <div class="notify">
-                    <div class="notify-left">
-                        <span><i class="fas fa-music-alt"></i></span>
-                        <span><i class="fad fa-headphones-alt"></i></span>
-
-                        <span><i class="fab fa-bluetooth-b"></i></span>
-
-                        <span><i class="far fa-wifi"></i></span>
-
+                <div class="design">
+    
+                    <div class="notify">
+                        <div class="notify-left">
+                            <span><i class="fas fa-music-alt"></i></span>
+                            <span><i class="fad fa-headphones-alt"></i></span>
+    
+                            <span><i class="fab fa-bluetooth-b"></i></span>
+    
+                            <span><i class="far fa-wifi"></i></span>
+    
+                        </div>
+    
+                        <div class="notify-right">
+                            <span><i class="far fa-battery-half"></i></span>
+                        </div>
+    
                     </div>
-
-                    <div class="notify-right">
-                        <span><i class="far fa-battery-half"></i></span>
+    
+    
+    
+    
+                    <div class="timer">
+                        <div class="timer-left">
+                            <span id="hours">00</span><span class="dot">:</span><span id="munite"></span>
+                        </div>
+                        <div class="timer-right">
+                            <span id="appm"></span>
+                            <span id="secend"></span>
+                        </div>
+    
+    
+    
                     </div>
-
+    
+                    <div class="din">
+                        <span id="den"></span>
+                    </div>
+    
+                    <div class="tarik">
+                        <span id="date"></span><span id="dot">/</span><span id="month"></span><span id="dot">/</span><span id="year"></span>
+                    </div>
                 </div>
-
-
-
-
-                <div class="timer">
-                    <div class="timer-left">
-                        <span id="hours">00</span><span class="dot">:</span><span id="munite"></span>
+    
+            </div>
+    
+            <div class="count-section">
+                <div class="counter-inner">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="count-left">
+                                <div class="count-left-inner">
+                                    <button class="btn btn-danger" id="start">Start</button>
+                                    <button class="btn btn-primary" id="stop">Stop</button>
+                                    <button class="btn btn-success" id="reset">Reset</button>
+                            
+                                    <h1 id="out-put">0</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="timer-right">
-                        <span id="appm"></span>
-                        <span id="secend"></span>
-                    </div>
-
-
-
-                </div>
-
-                <div class="din">
-                    <span id="den"></span>
-                </div>
-
-                <div class="tarik">
-                    <span id="date"></span><span id="dot">/</span><span id="month"></span><span id="dot">/</span><span id="year"></span>
                 </div>
             </div>
-
         </div>
+
+
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

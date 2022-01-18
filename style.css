@@ -4,6 +4,7 @@
     src: url(./font/font-1/digital-7.ttf);
     font-family: watch;
 }
+
 @font-face {
     src: url(./font/font-2/DS-DIGI.TTF);
     font-family: watching;
@@ -20,12 +21,15 @@
 }
 
 /* main-div */
-
+.main-div {
+    background-image: url(./img/banner-img.jpg);
+    background-size: cover;
+}
 
 /* watch-div */
 
 .wtach-div {
-    background-image: url(./watch3.png);
+    background-image: url(./img/watch3.png);
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,9 +46,10 @@
 .main-div {
     margin: auto;
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.design {
+.design { 
 
     position: relative;
     height: 149px;
@@ -53,7 +58,7 @@
 }
 
 .notify {
-    display: flex; 
+    display: flex;
     font-size: 12px;
 }
 
@@ -90,12 +95,12 @@ span i {
     color: white;
     padding: 10px 0px 0px 0px;
     margin-top: 3px;
-} 
- 
-.din { 
+}
+
+.din {
     padding: 0px 0px 3px 0px;
 }
- 
+
 .tarik {
     font-family: watch;
 }
@@ -113,14 +118,14 @@ span i {
 }
 
 .timer-left {
-    width: 80%; 
+    width: 80%;
     font-size: 38px;
-    padding-left: 1px; 
-} 
+    padding-left: 1px;
+}
 
 .timer-right {
-    width: 20%;   
-    text-align: center;  
+    width: 20%;
+    text-align: center;
     padding-top: 10px;
 }
 
@@ -129,6 +134,18 @@ span i {
     display: block;
     padding-top: 4px;
 }
+
 .dot {
     font-family: watch;
-  }
+}
+
+.count-left-inner {
+    border: 8px double #fff;
+    padding-top: 10px;
+}
+
+
+
+.count-left {
+    padding: 0px 10px;
+}

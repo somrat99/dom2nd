@@ -17,3 +17,6 @@ function week( deen){
         return`Saturday`
     }
 }
+
+
+// counter-section
